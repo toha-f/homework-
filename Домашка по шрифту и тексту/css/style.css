@@ -1,0 +1,21 @@
+.text-1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300px;
+    font-style: italic;
+}
+.text-2{
+    text-decoration: underline;
+}
+.text-3{
+    text-align: center;
+}
+.text-4{
+    word-spacing: 30px;
+    text-decoration: overline;
+}
+.text-5{
+    letter-spacing: 5px;
+    text-decoration: line-through;
+}
