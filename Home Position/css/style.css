@@ -1,0 +1,30 @@
+.inner{
+    display: flex;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+}
+.white {
+    height: 100px;
+    width: 500px;
+    border-radius: 10px;
+    background: #878484;
+}
+.red {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: red;
+}
+.white {
+    position: fixed;
+    top: auto;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+}
+.red {
+    position: fixed;
+    bottom: 150px;
+    right: 400px;
+}

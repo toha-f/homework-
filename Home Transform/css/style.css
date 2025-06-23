@@ -1,0 +1,30 @@
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+.red,
+.green,
+.blue {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.red {
+    background: linear-gradient(120deg, #f10e0e80, #ff620080);
+}
+.green {
+    background: linear-gradient(120deg, #08f72080, #25f63a80);
+}
+.blue {
+    background: linear-gradient(120deg, #100cf480, #a200ff80);
+}
+.red {
+    transform: translate(400px, 600px);
+}
+.green {
+    transform: rotate(43deg);
+    transform-origin: 150% 100%;
+}
+.blue {
+    transform: translate(750px, -350px) scale(1.4) rotate(180deg)
+}
